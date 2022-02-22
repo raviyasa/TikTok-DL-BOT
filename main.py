@@ -36,7 +36,7 @@ def start_handler(update, context):
 
 def about_handler(update, context):
     update.message.reply_sticker('CAACAgUAAxkBAAED9kZiDq_LFrib38c7DYu3jNz3ebsolgACJAUAAuTb4FdKtjtZGQ2ukiME')
-    update.message.reply_text('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)',parse_mode=_ParseMode)
+    update.message.reply_text('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 Bᴏᴛ Sʜᴀᴅᴏᴡ ♾](https://t.me/media_bot_updates)',parse_mode=_ParseMode)
     
 # ◇─────────────────────────────────────────────────────────────────────────────────────◇
 
@@ -58,7 +58,7 @@ def Download_Video(Link,update, context):
        print('Download Links Generated \n\n\n'+str(req)+'\n\n\n')
     except:
         print('Download Links Generate Error !!!')
-        status_msg.edit_text('⁉️ TikTok Downloader API Error !!! Report To Developer : @SL_Developers')
+        status_msg.edit_text('⁉️ TikTok Downloader API Error !!! Report To Developer : @darkz_hacker_devil')
         status_sticker.delete()
         return
     
@@ -67,7 +67,7 @@ def Download_Video(Link,update, context):
 ✅ Successfully Downloaded {} Video 🔰
 
 🔰 Powerd by : [🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)
-[🔥 Single Developers </> ](https://t.me/SingleDevelopers) Corporation ©️
+[🔥 Bᴏᴛ Sʜᴀᴅᴏᴡ ♾ </> ](https://t.me/media_bot_updates) Corporation ©️
 
 ◇───────────────◇"""
     
